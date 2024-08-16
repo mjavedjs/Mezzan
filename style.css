@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Roboto" sans-serif;
+}
+.bg-grey{
+    background-color: gainsboro;
+}
+.navbar{
+    margin-top:-18px;
+}
+.nav-link{
+  border-right:1px solid grey;
+}
+.bg-pruple{
+ color: purple;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+.dropdown:hover button{
+    background-color:yellow;
+}
+.text-section span{
+    font-size:1.5rem;
+}
+.text-section i{
+  font-size:2rem;
+  margin-left:10px;
+}
+.hero-text p{
+  font-size:1.2rem;
+}
+.card-1{
+  font-size:1.4rem;
+}
+.card-1 img{
+  width:200%;
+  height:20rem;
+}
