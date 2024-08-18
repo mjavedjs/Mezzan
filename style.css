@@ -80,9 +80,10 @@
   transform: scale(1.1); 
 }
 .main-section-awarded{
-   /* height:40vh; */
+
    background-color: #ebebeb;
    margin-bottom:40px;
+   
 }
 .img-awareded{
   margin:1.6rem;
