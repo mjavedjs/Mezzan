@@ -17,6 +17,9 @@
 .bg-pruple{
  color: purple;
 }
+.bg1-purple{
+  background-color:#701e7d;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
@@ -41,3 +44,80 @@
   width:200%;
   height:20rem;
 }
+.hero-section {
+  margin-bottom:80px;
+  font-size:1.2rem;
+}
+.hero-section .card{
+  border:none;
+}
+.hero-section img {
+  height:200px; 
+  object-fit: cover; 
+  width: 100%;
+
+}
+.hero-section img:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
+}
+.main-section{
+  text-align: center;
+  background-color: #701e7d;
+}
+.main-section .card{
+    background-color:transparent;
+    border:none;
+  color:white;
+
+}
+.main-section img{
+   border-radius:50%;
+   width:90%;
+}
+.main-section img:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1); 
+}
+.main-section-awarded{
+   /* height:40vh; */
+   background-color: #ebebeb;
+   margin-bottom:40px;
+}
+.img-awareded{
+  margin:1.6rem;
+}
+.btn.bg1-purple {
+  background-color: #6a1b9a; 
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+footer {
+  background-color:#f2f2f2;
+  color:#1F1E1E; 
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
